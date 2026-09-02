@@ -25,6 +25,6 @@ def main():
 
     print(f'Generating into {to_dir}')
 
-    generate_pages_recursively(from_dir, template_path, to_dir, sys.argv[1] if len(sys.argv) > 1 else None)
+    generate_pages_recursively(from_dir, template_path, to_dir, f"{"/static_gen" + sys.argv[1]}" if len(sys.argv) > 1 else None)
 
 main()
