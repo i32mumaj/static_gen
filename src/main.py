@@ -36,7 +36,7 @@ def main():
 
     from_dir = path.abspath("content")
     template_path = path.abspath("template.html")
-    to_dir = path.join(base_path, "public")
+    to_dir = path.join(base_path)
 
     rmtree(to_dir, ignore_errors=True)
     makedirs(to_dir)
