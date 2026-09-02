@@ -39,7 +39,7 @@ Everything is parsed into an intermediate node tree (`TextNode` → `HTMLNode`/`
 Build the site and serve it locally:
 
 ```
-./main.sh
+./build.sh
 ```
 
 This runs `src/main.py` to regenerate `public/`, then starts a local server at `http://localhost:8888`.
